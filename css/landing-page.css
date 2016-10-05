@@ -1,0 +1,246 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ .new_tbl td, th{ border:3px solid #fff; padding:2px; font-size:25px; font-family: 'Open Sans'; font-weight:lighter; padding-left:25px;}
+ .new_tbl th{ border:3px solid #fff; padding:2px; font-size:25px;  font-family:"Helvetica Neue",Helvetica; font-weight:lighter; padding-left:25px; font-family:}
+  .new_tbl{ width:800px; text-align:left; margin:0 auto;}
+ a{ text-decoration:none}
+ .desc2{ font-size:25px; color:#999999; text-align:left; font-weight:lighter; width:900px; padding-left:70px; padding-top:240px}
+  .desc3{ font-size:25px; color:#999999; text-align:left; font-weight:lighter; width:800px; padding-left:140px; padding-top:70px;}
+  .dds{ font-size:25px; font-family: 'Open Sans'; font-weight:lighter;}
+ .ttx{
+	 text-align:center; font-size:27px; font-weight:lighter}
+.order, .order:visited{
+	
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	font-size:30px;
+	border:3px solid #fff;
+	padding:3px;
+	-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+border-radius: 17px;
+padding-left:40px;
+padding-right:40px;
+ font-weight:lighter;
+	}
+	.desc{color:#606060; font-size:28px; font-weight:lighter;}
+	.order:hover{ color:rgba(215,215,215,1.00); border:3px solid rgba(215,215,215,1.00); text-decoration:none} 
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.ttl{ font-size:38px; font-family:"Helvetica Neue",Helvetica; font-weight:lighter; line-height:65px;}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+
+    color: #f8f8f8;
+    background: url(../img/img-05.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.intro-header2{
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+
+    color: #f8f8f8;
+    background: url(../img/img-02.jpg) no-repeat center center;
+    background-size: cover;
+}
+.row-image{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    color: #f8f8f8;
+    margin-top:-70px;
+    margin-bottom:-50px;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #e7e7e7;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/img-03.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.shipping{
+    /*Стиль для img если не текстом*/
+    /*background: url(../img/delivery.png) no-repeat center left;
+    -webkit-background-size: 110px;
+       -moz-background-size: 110px;
+         -o-background-size: 110px;
+            background-size: 110px;
+    text-align: center;
+    padding:50px 0px;*/
+    /*Стиль для текста*/
+    background:#222;
+    width:150px;
+    height: 150px;
+    padding-top: 25px;
+    -webkit-border-radius: 75px;
+            border-radius: 75px;
+    -webkit-transform: rotate(-25deg);
+       -moz-transform: rotate(-25deg);
+         -o-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+    border: 5px solid #000;
+    color:#fff;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 21px;
+}
+
+.btn.btn-default:hover{
+    background:#64C5F9 !important;
+}
+.highlight{
+    color:#00BFFF;
+}

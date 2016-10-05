@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/alex.giperhost.org/webstat"
+AuthUserFile /var/www/alex/data/etc/6686250.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
